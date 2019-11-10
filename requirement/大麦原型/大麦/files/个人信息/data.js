@@ -1,0 +1,108 @@
+﻿$axure.loadCurrentPage({
+  "url":"个人信息.html",
+  "generationDate":new Date(1511139788820.64),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"df309a58b743439582e648933dafa7a2",
+    "type":"Axure:Page",
+    "name":"个人信息",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"b5a50642e9924b0c82e50a5a420de00f",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":-40},
+            "size":{
+              "width":1230,
+              "height":191}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"031494cb63f34cff85d4a5fbbe6cff1e",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":0,
+                  "y":-40},
+                "size":{
+                  "width":1230,
+                  "height":191}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/个人信息/u0.png"}},
+{
+          "id":"d25cf34caa5a4daab3ef8e236a246caf",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":10,
+              "y":170},
+            "size":{
+              "width":1270,
+              "height":860}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"bd84bae9f23047959db9cee398689988",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":10,
+                  "y":170},
+                "size":{
+                  "width":1270,
+                  "height":860}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/个人信息/u2.jpg"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "b5a50642e9924b0c82e50a5a420de00f":{
+      "scriptId":"u0"},
+    "031494cb63f34cff85d4a5fbbe6cff1e":{
+      "scriptId":"u1"},
+    "d25cf34caa5a4daab3ef8e236a246caf":{
+      "scriptId":"u2"},
+    "bd84bae9f23047959db9cee398689988":{
+      "scriptId":"u3"}}});

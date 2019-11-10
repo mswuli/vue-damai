@@ -1,0 +1,112 @@
+@backClolr: #f7f7f7;
+@colorCCC: #ccc;
+@colorFFF: #ffffff;
+@colorEEE: #eeeeee;
+@import '../../../../static/less/custom.less';
+
+.desc-container {
+  position: relative;
+  .bread-crumb {
+    height: 51px;
+    width: 100%;
+    background-color: #f6f6f6;
+    line-height: 51px;
+    padding-left: 22px;
+  }
+  .red a {
+    color: #ff3c1b;
+  }
+  .desc-body {
+    overflow: hidden;
+    border: #eaeceb;
+    background-color: #fff;
+    margin-bottom: 30px;
+    padding-top: 31px;
+    padding-left: 21px;
+    .message-left,
+    .message-body,
+    .message-right {
+      display: inline-block;
+    }
+    .message-left {
+      float: left;
+      height: 371px;
+      width: 271px;
+      margin-right: 25px;
+    }
+    .message-body {
+      float: left;
+      width: 610px;
+      .title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 30px;
+      }
+      .sub-title {
+        font-size: 14px;
+        font-weight: Regular;
+        margin-bottom: 19px;
+      }
+      .des-steps {
+        height: 85px;
+        background-color: @backClolr;
+        padding: 30px 0 30px 30px;
+        width: 600px;
+        .ivu-steps-title,
+        .ivu-steps-head {
+          background-color: @backClolr;
+        }
+      }
+      .dm-Radio-Group {
+        margin-top: 26px;
+        .label-title {
+          line-height: 36.8px;
+        }
+        .ivu-radio-group,
+        .ivu-radio-group-button {
+          width: 86%;
+        }
+        .ivu-radio-group-item {
+          margin: 0 5px 5px 5px;
+          border-left: 1px solid #dddee1;
+          border-radius: 4px;
+        }
+        .ivu-radio-wrapper-checked:first-child {
+          border-color: #ff3c1b;
+        }
+      }
+    }
+    .message-right {
+      float: left;
+      width: 262px;
+      .desc-grade {
+        .grade-rate {
+          .rate-size {
+            color: #ff3c1b;
+            font-size: 18px;
+            margin-right: 8px;
+          }
+          .grade-size {
+            color: #ff3c1b;
+          }
+        }
+      }
+      .dashed {
+        border-bottom: 1px #ccc dashed;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        .title {
+          font-size: 14px;
+          font-weight: 500;
+          margin-bottom: 12px;
+        }
+        .map {
+          font-size: 14px;
+          font-weight: 400;
+          margin-top: 12px;
+        }
+      }
+    }
+  }
+}
+@import 'showMessage.less';

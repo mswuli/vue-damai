@@ -1,0 +1,71 @@
+﻿$axure.loadCurrentPage({
+  "url":"常用购票人.html",
+  "generationDate":new Date(1511139788850.65),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"d5853f17b3f84f2cacc4b5f82edfe7e5",
+    "type":"Axure:Page",
+    "name":"常用购票人",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"eb7b98dd8d0342e6a5cdc3a731f01865",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":20,
+              "y":65},
+            "size":{
+              "width":1300,
+              "height":485}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"115086c02f5c49529f926ce1df71e2a2",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":20,
+                  "y":65},
+                "size":{
+                  "width":1300,
+                  "height":485}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/常用购票人/u0.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "eb7b98dd8d0342e6a5cdc3a731f01865":{
+      "scriptId":"u0"},
+    "115086c02f5c49529f926ce1df71e2a2":{
+      "scriptId":"u1"}}});

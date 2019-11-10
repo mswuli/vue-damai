@@ -1,0 +1,5 @@
+1、图片表中增加图片类型dm_image(type)
+2、节目表中增加了abstractMessage字段标识摘要信息
+3、节目表中增加了cinemaId字段，标识该节目演出的场地
+4、节目表中增加了avgScore字段，标识平均分
+5、节目表中增加了commentCount字段，标识评论数目
